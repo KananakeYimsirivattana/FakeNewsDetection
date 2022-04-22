@@ -17,8 +17,8 @@ warnings
 Random Forest
 
 # ขั้นตอนการทำงาน
-1.ติดตั้ง pip install pythainlp และ Libraries #
-2.รวมไฟล์ Fake News แะ Real Newsไว้ที่ manual_testing.csv #
-3.StopWords 'ราย' #
-4.WordCloud ตัดคำจากไฟล์ แต่ละclass #
-5.ใช้ Random Forest ในตรวจสอบความแม่นยำในการตรวจจับข่าวปลอม ที่มีความแม่นยำถึง 79 % #
+1.ติดตั้ง pip install pythainlp และ Libraries 
+2.รวมไฟล์ Fake News แะ Real Newsไว้ที่ manual_testing.csv 
+3.StopWords 'ราย' 
+4.WordCloud ตัดคำจากไฟล์ แต่ละclass 
+5.ใช้ Random Forest ในตรวจสอบความแม่นยำในการตรวจจับข่าวปลอม ที่มีความแม่นยำถึง 79 % 
