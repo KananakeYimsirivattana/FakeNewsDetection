@@ -4,15 +4,15 @@
 ข่าวจริง : REAL.CSV
 รวมไฟล์ข่าวปลอมและช่าวจริง : manual_testing.csv โดนไฟล์นี้จะกำหนดclassว่าFake คือ 0 และ Real คือ 1
 # Libraries
-pythainlp
-numpy
-sklearn
-matplotlib
-seaborn
-wordcloud
-re
-nltk
-warnings
+1.  pythainlp
+2.  numpy
+3.  sklearn
+4.  matplotlib
+5.  seaborn
+6.  wordcloud
+7.  re
+8.  nltk
+9.  warnings
 # Neural Network 
 Random Forest
 
