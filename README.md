@@ -1,8 +1,8 @@
 # FakeNewsDetection
 # Dataset
-ข่าวปลอม : Fake.CSV
-ข่าวจริง : REAL.CSV
-รวมไฟล์ข่าวปลอมและช่าวจริง : manual_testing.csv โดนไฟล์นี้จะกำหนดclassว่าFake คือ 0 และ Real คือ 1
+1.  ข่าวปลอม : Fake.CSV
+2.  ข่าวจริง : REAL.CSV
+3.  รวมไฟล์ข่าวปลอมและช่าวจริง : manual_testing.csv โดยไฟล์นี้จะกำหนดclassว่าFake คือ 0 และ Real คือ 1
 # Libraries
 1.  pythainlp
 2.  numpy
