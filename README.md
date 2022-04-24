@@ -1,8 +1,11 @@
 # FakeNewsDetection
+This project is based on analysis and classification of news on Twitter using an LSTM (Long Short Term Memory) and RF (Random Forest) to Identify fake news or not. 
+
+Developed using python pythainlp for Natural Language Processing and Tensorflow, pandas with WordCloud, Sklearn and Seaborn for visualizations. 
 # Dataset
-1.  ข่าวปลอม : Fake.CSV
-2.  ข่าวจริง : REAL.CSV
-3.  รวมไฟล์ข่าวปลอมและช่าวจริง : manual_testing.csv โดยไฟล์นี้จะกำหนดclassว่าFake คือ 0 และ Real คือ 1
+1.  Fake news : Fake.CSV
+2.  Real news : Real.CSV
+3.  manual_testing.CSV is a file that merges the two files together by categorize fake news for class 0 and Real news for class 1. 
 # Libraries
 1.  pythainlp
 2.  numpy
@@ -17,8 +20,10 @@
 Random Forest
 
 # ขั้นตอนการทำงาน
-1. ติดตั้ง pip install pythainlp และ Libraries 
-2. รวมไฟล์ Fake News แะ Real Newsไว้ที่ manual_testing.csv 
-3. StopWords 'ราย' 
-4. WordCloud ตัดคำจากไฟล์ แต่ละclass 
-5. ใช้ Random Forest ในตรวจสอบความแม่นยำในการตรวจจับข่าวปลอม ที่มีความแม่นยำถึง 79 % 
+1. Clone the repo to your local machine 
+2. Make sure you have all the dependencies installed 
+3. Use FakeNews-Random Forest.ipynb to test 
+
+# Model Used and accuracy 
+  * Model Used and accuracy 
+  * Accuracy----XXXX% for LSTM and 79% for RF 
